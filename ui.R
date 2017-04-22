@@ -24,7 +24,8 @@ shinyUI(pageWithSidebar(
     h5("Frequency:"),
     h5(textOutput("frequencyResult")),
     h5("Probability of Criminality:"),
-    h5(textOutput("probabilityResult"))
+    h5(textOutput("probabilityResult")),
+    h6("the code for this application can be found at https://github.com/drexelhub/POC")
   ),
   
   mainPanel(
@@ -38,7 +39,8 @@ shinyUI(pageWithSidebar(
     
     plotOutput("crimPlot"),
     
-    h4(textOutput("result"))
+    h4(textOutput("result")),
+    h6("the code for this application can be found at https://github.com/drexelhub/POC")
 
   )
 ))
